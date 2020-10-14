@@ -1,0 +1,173 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/Logo.png" class="logo" alt="Logo"></a>
+        <nav>
+            <a class="nodecoration" href="index.html">Home</a>
+            <a class="nodecoration" href="blog.html">Blog</a>
+            <a class="nodecoration" href="aboutme.html">About Me</a>
+                <div class="icon-container">
+                    <button type="button"><i class="fa fa-search"></i></button>
+                    <button type="button" id="Follow">Follow Me</button>
+                </div>
+        </nav>
+    </header>          
+    <Section class="main-body">
+        <article>
+            <div class="blog-card">
+                <div id="blog-head">
+                    <h2>HOW WEB DESIGN AFFECTS SEO?</h2>
+                </div>
+                <div id="blog-body">
+                    <img src="images/Webdesign2_Promo.jpg" class="feature-image" alt="Web Design" style="display: flex;">
+                    <p>Do you want your website to rank better on the search engine results page (SERP)?</p>
+
+                    <p>Search engine optimization or SEO consists of so many factors. Focusing on essential factors can boost search engine rankings. One of the crucial factors is web design.</p>
+                        
+                    <p>Your website design can have a significant impact on its rankings. Here are some points explaining the role of web design in SEO:</p>
+                    <div id="blog-footer">
+                        <button type="button"><i class="fa fa-share-alt"></i><span class="orange-font"> Share This </span></button>
+                        <a href="blog.html"><button type="button" class="orange"> Continue Reading </button></a> 
+                    </div>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div id="blog-head">
+                    <h2>LOREM IPSUM DOLOR SIT AMET</h2>
+                </div>
+                <div id="blog-body">
+                    <img src="images/Responsive.jpg" class="feature-image" alt="Responsive Design">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quam unde, corrupti natus ex a? Consequatur dolores fugiat ipsam minus hic ipsum nulla laborum architecto rerum accusamus magni fuga distinctio dolor recusandae voluptatem eum, eaque tempora aliquid porro. Architecto quia dignissimos enim dicta, sint facere alias modi est earum, nemo inventore deleniti ex. Facere dicta voluptate qui sunt rem ea! Obcaecati totam sed adipisci quasi numquam eius rem. Voluptas ab velit modi a dolore delectus iure iste natus ipsum suscipit explicabo, aperiam dolorem et aliquam laborum placeat nulla vel quo voluptatum, laboriosam, ducimus doloremque quidem porro. Natus ut mollitia incidunt.</p>
+                    <div id="blog-footer">
+                        <button type="button"><i class="fa fa-share-alt"></i><span class="orange-font"> Share This </span></button>
+                        <a href="Blog_2.html"><button type="button" class="orange"> Continue Reading </button></a> 
+                    </div>
+                </div>
+                
+            </div>
+            <div class="endcards">
+                <button type="button" class="gray">OLD ENTRIES</button>
+                <button type="button">NEXT ENTRIES</button>
+            </div>
+        </article>        
+        <aside>
+            <div id="profile">
+                <img src="images/Me Small.png" id="avatar" alt="Avatar of Pijamo">
+                <h3>Pijamo Ngullie</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur doloribus beatae doloremque error.</p>
+                <i class="fa fa-facebook social" aria-hidden="true"></i>
+                <i class="fa fa-twitter social" aria-hidden="true"></i>
+                <i class="fa fa-google-plus social" aria-hidden="true"></i>
+                <i class="fa fa-linkedin social" aria-hidden="true"></i>
+                <i class="fa fa-youtube social" aria-hidden="true"></i>
+            </div>
+            <div id="search">
+                <div class="aside-head">
+                    <button type="button"><i class="fa fa-search"></i></button>
+                    <h4>Search Bar</h4>
+                </div>
+                <input id="search-form" type="text" placeholder="LOOKING FOR..">
+                <button type="button" id="search-button" class="orange">SEARCH NOW</button>
+            </div>
+            <div id="categories">
+                <div class="aside-head">
+                    <button type="button"><i class="fa fa-folder" aria-hidden="true"></i></button>
+                    <h4>Categories</h4>
+                </div>
+                <div id="tag">
+                    <p>Branding</p>
+                    <i class="fa fa-angle-double-right"></i>
+                </div>
+                <div id="tag">
+                    <p>UI Design</p>
+                    <i class="fa fa-angle-double-right"></i>
+                </div>
+                <div id="tag">
+                    <p>Typography</p>
+                    <i class="fa fa-angle-double-right"></i>
+                </div>
+                <div id="tag">
+                    <p>Wordpress</p>
+                    <i class="fa fa-angle-double-right"></i>
+                </div>
+                <div id="tag">
+                    <p>Development</p>
+                    <i class="fa fa-angle-double-right"></i>
+                </div>
+            </div>
+            <div id="popular-posts">
+                <div class="aside-head">
+                    <button type="button"><i class="fa fa-heart" aria-hidden="true"></i></button>
+                    <h4>Popular Posts</h4>
+                </div>
+                <div id="mini-card">
+                    <div class="small-image"></div>
+                    <div id="container">
+                        <p class="black">WEB DESIGN</p>
+                        <p><i class="fa fa-user" aria-hidden="true"></i> BY : <span class="orange-font">PIJAMO</span></p>
+                        <p><i class="fa fa-clock-o" aria-hidden="true"></i> JULY 25, 2014</p>
+                    </div>
+                </div>
+                <div id="mini-card">
+                    <div class="small-image"></div>
+                    <div id="container">
+                        <p class="black">RESPONSIVE DESIGN</p>
+                        <p><i class="fa fa-user" aria-hidden="true"></i> BY : <span class="orange-font">PIJAMO</span></p>
+                        <p><i class="fa fa-clock-o" aria-hidden="true"></i> JULY 25, 2014</p>
+                    </div>
+                </div>
+                <div id="mini-card">
+                    <div class="small-image"></div>
+                    <div id="container">
+                        <p class="black">MINIMAILIST DESIGN</p>
+                        <p><i class="fa fa-user" aria-hidden="true"></i> BY : <span class="orange-font">PIJAMO</span></p>
+                        <p><i class="fa fa-clock-o" aria-hidden="true"></i> JULY 25, 2014</p>
+                    </div>
+                </div>
+                <div id="mini-card">
+                    <div class="small-image"></div>
+                    <div id="container">
+                        <p class="black">SHORTCUTS</p>
+                        <p><i class="fa fa-user" aria-hidden="true"></i> BY : <span class="orange-font">PIJAMO</span></p>
+                        <p><i class="fa fa-clock-o" aria-hidden="true"></i> JULY 25, 2014</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </section>
+    
+</body>
+<footer>
+    <div class="footer-text">
+        <p>All Rights Reserved © | By <span class="orange-font">Pijamo</span></p>
+    </div>
+    <div class="contact-socials">
+        <i class="fa fa-facebook social" aria-hidden="true"></i>
+        <i class="fa fa-twitter social" aria-hidden="true"></i>
+        <i class="fa fa-google-plus social" aria-hidden="true"></i>
+        <i class="fa fa-linkedin social" aria-hidden="true"></i>
+        <i class="fa fa-youtube social" aria-hidden="true"></i>
+    </div>
+</footer>
+</html>
